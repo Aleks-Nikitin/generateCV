@@ -2,11 +2,48 @@
  min-width: 320px;
   min-height: 100vh;
   display: grid;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  grid-template-columns: 1fr 1fr;
 }
 .survey{
   display: flex;
   flex-direction: column;
+  gap: 30px;
   margin: 0 auto;
   padding: 30px;
+  background-color: #88BDF2;
+}
+.preview{
+  font-size: x-large;
+  background-color: #BDDDFC;
+  text-align: center;
+  
+}
+.sectionBtn{
+  padding: 20px 8px 20px 8px;
+  font-size: large;
+  color: white;
+  background-color: #384959;
+  border-radius: 1.1em;
+}
+.personalForm{
+  background-color: #88BDF2;
+}
+button{
+  font-weight: bold;
+  transition: transform 1s;
+}
+button:hover{
+    transform: scale(1.1);
+}
+input{
+  transition: transform 1s;
+}
+input:focus{
+  transform: scale(1.06);
+}
+@media(max-width:500px) {
+  #root{
+    grid-template-columns: 1fr;
+  }
 }

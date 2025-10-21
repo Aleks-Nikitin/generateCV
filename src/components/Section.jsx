@@ -20,7 +20,7 @@ export default function Section({first,last,email,phone,showSection}){
         <label htmlFor="phone">Phone Number: </label>
         <input type="tel" id="phone" onChange={phone}/>
 
-        <button type="button" onClick={showSection} >Submit</button>
+        <button  type="button" onClick={showSection} >Submit</button>
         </form>
         
              
